@@ -1,0 +1,35 @@
+.cabecalho-menu-hamburguer{
+width: 12px;
+height: 12px;
+background-image: url("...img/Menu.png");
+display: online-block;
+}
+.cabecalho{
+background-color: vear(--cor-de-texto);
+display:flex;
+justify-content: space-between;
+align-items:center;
+}
+.container{
+display:flex;
+align-items:center ;
+}
+
+.lista-menu{
+    display: none; 
+}
+    
+.container-botao:checked ~.lista-menu{
+    display: block;
+}
+.lista-menu{
+    display: none; 
+    position: absoluti;
+    top: 100%;
+}
+
+.ĺista-menu-titulo, .lista-menu-item {
+padding:1em;
+background-color: var(--cor-de-texto);
+
+}
